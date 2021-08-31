@@ -1,0 +1,41 @@
+{
+  "name": "receipe",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start" : "parcel index.html -p 80",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@parcel/config-default": "2.0.0-rc.0",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "parcel": "^2.0.0-beta.3",
+    "parcel-resolver-ignore": "^1.0.2",
+    "postcss": "^8.3.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "animate.css": "^4.1.1",
+    "core-js": "^3.16.4",
+    "lodash-es": "^4.17.21",
+    "regenerator-runtime": "^0.13.9"
+  },  
+  "author": "",
+  "license": "ISC"
+}
