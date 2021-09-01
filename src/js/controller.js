@@ -1,10 +1,11 @@
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
 import * as model from './model';
 import recipeView from './view/recipeView';
 import searchView from './view/searchView';
 import resultsView from './view/resultsView';
 
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+import { async } from 'regenerator-runtime';
 // import icons from 'url:../img/icons.svg';
 // console.log(icons);
 // const icons = import('../img/*.svg'); // asyn await
