@@ -14,7 +14,7 @@
     "@babel/preset-env": "^7.15.0",
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "@parcel/config-default": "2.0.0-rc.0",
-    "@parcel/resolver-glob": "^2.0.0-nightly.2338",
+    "@parcel/resolver-glob": "^2.0.0-rc.0",
     "@parcel/transformer-image": "^2.0.0-rc.0",
     "@parcel/transformer-sass": "^2.0.0-rc.0",
     "autoprefixer": "^10.3.1",
@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "core-js": "^3.16.4",
-    "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.9"
   },
   "author": "",
