@@ -46,4 +46,3 @@ export const loadSearchResults = async query => {
     throw err;
   }
 };
-window.model = state;

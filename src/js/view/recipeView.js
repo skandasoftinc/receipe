@@ -1,4 +1,3 @@
-debugger;
 import img from 'url:../../img/*';
 import View from './View';
 
