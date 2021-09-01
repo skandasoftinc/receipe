@@ -1453,6 +1453,7 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var _ = _interopRequireDefault(require("url:../../img/*"));
 var _View2 = _interopRequireDefault(require("./View"));
+var _fractional = require("fractional");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         "default": obj
@@ -1577,7 +1578,7 @@ var RecipeView1 = /*#__PURE__*/ function(_View) {
         {
             key: "_generateMarkupIngredient",
             value: function _generateMarkupIngredient(ing) {
-                return "\n        <li class=\"recipe__ingredient\">\n        <svg class=\"recipe__icon\">\n          <use href=\"".concat(_["default"]['icons.svg'], "#icon-check\"></use>\n        </svg>\n        <div class=\"recipe__quantity\">").concat(ing.quantity ? ing.quantity : '', "</div>\n        <div class=\"recipe__description\">\n          <span class=\"recipe__unit\">").concat(ing.unit, "</span>\n          ").concat(ing.description, "\n        </div>\n        </li>      \n      ");
+                return "\n        <li class=\"recipe__ingredient\">\n        <svg class=\"recipe__icon\">\n          <use href=\"".concat(_["default"]['icons.svg'], "#icon-check\"></use>\n        </svg>\n        <div class=\"recipe__quantity\">").concat(ing.quantity ? new _fractional.Fraction(ing.quantity).toString() : '', "</div>\n        <div class=\"recipe__description\">\n          <span class=\"recipe__unit\">").concat(ing.unit, "</span>\n          ").concat(ing.description, "\n        </div>\n        </li>      \n      ");
             }
         }
     ]);
@@ -1586,7 +1587,7 @@ var RecipeView1 = /*#__PURE__*/ function(_View) {
 var _default = new RecipeView1();
 exports["default"] = _default;
 
-},{"url:../../img/*":"kw2wu","./View":"f6rxx"}],"kw2wu":[function(require,module,exports) {
+},{"url:../../img/*":"kw2wu","./View":"f6rxx","fractional":"40qvl"}],"kw2wu":[function(require,module,exports) {
 "use strict";
 var _temp0 = require("url:./favicon.png");
 var _temp1 = require("url:./icons.svg");
