@@ -1704,6 +1704,7 @@ var View = /*#__PURE__*/ function() {
         {
             key: "render",
             value: function render(data) {
+                if (data || Array.isArray(data) && data.length === 0) return this.renderError();
                 this._data = data;
                 this.clear();
                 var markup = this._generateMarkup();

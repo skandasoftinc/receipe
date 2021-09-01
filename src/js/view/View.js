@@ -18,6 +18,8 @@ export default class View {
     this._parentContainer.insertAdjacentHTML('afterbegin', markup);
   }
   render(data) {
+    if (data || (Array.isArray(data) && data.length === 0))
+      return this.renderError();
     this._data = data;
     this.clear();
     const markup = this._generateMarkup();
