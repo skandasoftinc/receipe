@@ -1,6 +1,5 @@
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import { Fraction } from 'fractional';
 import * as model from './model';
 import recipeView from './view/recipeView';
 import searchView from './view/searchView';

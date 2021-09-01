@@ -1,5 +1,4 @@
 import View from './View';
-import { Fraction } from 'fractional';
 class SearchView extends View {
   _parentContainer = document.querySelector('.search');
   getQuery() {

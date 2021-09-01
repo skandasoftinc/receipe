@@ -1,5 +1,3 @@
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
 import { API_URL, KEY } from './config';
 import { getJSON } from './helper';
 export const state = {
