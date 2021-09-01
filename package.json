@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start" : "parcel index.html -p 80",
+    "start": "parcel index.html -p 80",
     "build": "parcel build index.html"
   },
   "devDependencies": {
@@ -25,17 +25,19 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
     "node-sass": "^6.0.1",
-    "parcel": "^2.0.0-beta.3",
+    "parcel": "^2.0.0-rc.0",
     "parcel-resolver-ignore": "^1.0.2",
     "postcss": "^8.3.5"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
+    "@parcel/resolver-glob": "^2.0.0-rc.0",
     "animate.css": "^4.1.1",
     "core-js": "^3.16.4",
+    "fractional": "^1.0.0",
     "lodash-es": "^4.17.21",
     "regenerator-runtime": "^0.13.9"
-  },  
+  },
   "author": "",
   "license": "ISC"
 }
