@@ -3,6 +3,9 @@ import img from 'url:../../img/*';
 
 class ResultsView extends View {
   _parentContainer = document.querySelector('.search-results');
+  _errorMessage = 'No Recipes found for your query. Please try another one! ';
+  _message = '';
+
   _generateMarkup() {
     return this._data.map(this._generatePreviewMarkup).join('');
   }
