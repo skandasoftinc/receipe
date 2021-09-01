@@ -1,7 +1,6 @@
 debugger;
 import img from 'url:../../img/*';
 import View from './View';
-import { Fraction } from 'fractional';
 
 class RecipeView extends View {
   _parentContainer = document.querySelector('.recipe');

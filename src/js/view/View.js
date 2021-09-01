@@ -1,4 +1,5 @@
 import img from 'url:../../img/*';
+import { Fraction } from 'fractional';
 
 export default class View {
   _data;
